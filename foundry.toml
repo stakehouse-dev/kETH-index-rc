@@ -1,0 +1,12 @@
+[profile.default]
+src = 'contracts'
+out = 'out'
+test = 'tests'
+libs = ["node_modules", "lib", "contracts/mocks"]
+remappings = [
+    '@blockswaplab/stakehouse-sdk/=node_modules/@blockswaplab/stakehouse-sdk/',
+    '@blockswaplab/stakehouse-solidity-api/=node_modules/@blockswaplab/stakehouse-solidity-api/',
+    '@openzeppelin/=node_modules/@openzeppelin/',
+]
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
